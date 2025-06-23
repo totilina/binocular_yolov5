@@ -1,0 +1,13 @@
+train: ../datasets/train/vis/
+train2: ../datasets/train/ir/
+val: ../datasets/test/vis/
+val2: ../datasets/test/ir/
+test: ../datasets/test/vis/
+test2: ../datasets/test/ir/
+# number of classes
+nc: 5
+
+# class names
+names: [ 'person', 'cyclist','car', 'truck', 'bus']
+
+channels: 4

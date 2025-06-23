@@ -1,0 +1,19 @@
+train: ../per_train/vis/
+train2: ../per_train/ir/
+# val: ../per_train/vis/
+# val2: ../per_train/ir/
+# test: ../per_train/vis/
+# test2: ../per_train/ir/
+
+val: C:\Users\bizhr\Desktop\a\pcu\s_clean_data\val\vis\
+val2: C:\Users\bizhr\Desktop\a\pcu\s_clean_data\val\ir\
+test: C:\Users\bizhr\Desktop\a\pcu\s_clean_data\test\vis\
+test2: C:\Users\bizhr\Desktop\a\pcu\s_clean_data\test\ir\
+
+# number of classes
+nc: 5
+
+# class names
+names: [ 'person', 'cyclist','car', 'truck', 'bus']
+
+channels: 4

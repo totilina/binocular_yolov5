@@ -1,0 +1,13 @@
+train: ../train/vis/
+train2: ../train/ir/
+val: ../val/vis/
+val2: ../val/ir/
+test: ../test/vis/
+test2: ../test/ir/
+# number of classes
+nc: 5
+
+# class names
+names: [ 'person', 'cyclist','car', 'truck', 'bus']
+
+channels: 4
